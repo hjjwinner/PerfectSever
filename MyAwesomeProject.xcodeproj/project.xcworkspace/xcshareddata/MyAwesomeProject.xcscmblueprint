@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "53C981566D9939B304A80BF80C24675C109F3F05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807,
+    "53C981566D9939B304A80BF80C24675C109F3F05" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "94D6D3C7-8D25-4A39-A9C1-82F374E04D3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "AwesomeProject\/Packages\/PerfectHTTP-2.0.6\/",
+    "53C981566D9939B304A80BF80C24675C109F3F05" : "AwesomeProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyAwesomeProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyAwesomeProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:amap_jenkins\/code_scan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53C981566D9939B304A80BF80C24675C109F3F05"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-HTTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9197B75B1BC29921D6E3B1CCDC2B258350009F3A"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+module CHTTPParser {
+    umbrella "/Users/hjj/Documents/工程/swiftSever/AwesomeProject/Packages/PerfectHTTPServer-2.0.6/Sources/CHTTPParser/include"
+    link "CHTTPParser"
+    export *
+}

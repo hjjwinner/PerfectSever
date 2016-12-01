@@ -1,0 +1,594 @@
+Incident Identifier: 1BD2DA0E-C2D2-4BC3-8369-1D89873D3F0D
+CrashReporter Key:   A4AC5AED-639E-453C-87E7-B37378F93AFC
+Hardware Model:      iPhone4,1
+Process:         AMapiPhoneMonkey [547]
+Path:            /Users/USER/AMapiPhoneMonkey.app/AMapiPhoneMonkey
+Identifier:      com.autonavi.amaptestmonkey
+Version:         7.8.2.1052Beta
+Code Type:       ARM
+Parent Process:  launchd [1]
+
+Date/Time:       2016-11-29 15:02:03
+OS Version:      iPhone OS 7.1.2 (11D257)
+Report Version:  104
+
+Exception Type:  SIGSEGV
+Exception Codes: SEGV_ACCERR at 0x4
+Crashed Thread:  53
+
+tid:  V9qb4SFL76UDADK9TKIfr7ov
+dic:  C3320
+orgindic:  C3320
+diu:  D2805AEB-4826-40C4-BD02-07ED667C6FF5
+jailbreak: YES
+Installation time:  2016-11-29 14:27:05
+Managers info:  TopManager:NMZoomManager,id(41873328),Status:1----Stack:(0)NMFeedManager,id(41777288);(1)NMGeneralSearchManager,id(41860568);(2)NMHtml5Manager,id(41750368);(3)NMZoomManager,id(41873328);
+Caidan info:  BuildVersion:7.8.2.1052;dic=C3320&div=IOSH070802&dibv=1052Beta&dip=10920&diu=D2805AEB-4826-40C4-BD02-07ED667C6FF5&cifa=8002c0030d24f106363b620201000000000000000000000000000000000000000000000000000000000000070000000500372e312e3209006950686f6e65342c3105004150504c450a00372e382e322e31303532000000000000000000004100&diu2=E6C9D033-A767-4A62-B00D-2D8AEF5ABD94&diu3=9a4efbf71f3e7952f63314ccfe3cfdc7fe13b207&tid=V9qb4SFL76UDADK9TKIfr7ov
+Foreground:  true
+ApplicationState:  0
+Memory info:  available:9.1MB used:167.6MB
+
+Thread 0:
+0   libsystem_kernel.dylib               0x3aa72f9c 0x3aa60000 + 77724
+1   libsystem_pthread.dylib              0x3aadacf5 0x3aada000 + 3317
+2   WebCore                              0x37e566f5 0x37d97000 + 784117
+3   WebCore                              0x37e57513 0x37d97000 + 787731
+4   UIKit                                0x32798c49 0x32448000 + 3476553
+5   AMapiPhoneMonkey                     0x0078390b 0x3e000 + 7624971
+6   AMapiPhoneMonkey                     0x00782d39 0x3e000 + 7621945
+7   AMapiPhoneMonkey                     0x00782bb9 0x3e000 + 7621561
+8   AMapiPhoneMonkey                     0x00782b21 0x3e000 + 7621409
+9   AMapiPhoneMonkey                     0x0078294b 0x3e000 + 7620939
+10  AMapiPhoneMonkey                     0x006588b1 0x3e000 + 6400177
+11  AMapiPhoneMonkey                     0x004b6dcd 0x3e000 + 4689357
+12  AMapiPhoneMonkey                     0x0049f06b 0x3e000 + 4591723
+13  AMapiPhoneMonkey                     0x00480ff1 0x3e000 + 4468721
+14  Foundation                           0x3061fc73 0x30551000 + 846963
+15  CoreFoundation                       0x2fc0120b 0x2fb62000 + 651787
+16  CoreFoundation                       0x2fc006db 0x2fb62000 + 648923
+17  CoreFoundation                       0x2fbfeecf 0x2fb62000 + 642767
+18  CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+19  CoreFoundation                       0x2fb69ca3 0x2fb62000 + 31907
+20  GraphicsServices                     0x34ac3663 0x34aba000 + 38499
+21  UIKit                                0x324b614d 0x32448000 + 450893
+22  AMapiPhoneMonkey                     0x000455d7 0x3e000 + 30167
+23  libdyld.dylib                        0x3a9bdab7 0x3a9bc000 + 6839
+
+Thread 1:
+0   libsystem_kernel.dylib               0x3aa60808 0x3aa60000 + 2056
+1   libdispatch.dylib                    0x3a9a1e03 0x3a997000 + 44547
+
+Thread 2:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fb69ca3 0x2fb62000 + 31907
+5   Foundation                           0x305aa087 0x30551000 + 364679
+6   Foundation                           0x3061fa5f 0x30551000 + 846431
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 3:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x002f53bb 0x3e000 + 2847675
+3   AMapiPhoneMonkey                     0x002f43f9 0x3e000 + 2843641
+4   AMapiPhoneMonkey                     0x002f3c57 0x3e000 + 2841687
+5   AMapiPhoneMonkey                     0x002f4bb9 0x3e000 + 2845625
+6   AMapiPhoneMonkey                     0x002f5f21 0x3e000 + 2850593
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 4:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x002f53bb 0x3e000 + 2847675
+3   AMapiPhoneMonkey                     0x002f43f9 0x3e000 + 2843641
+4   AMapiPhoneMonkey                     0x002f3c57 0x3e000 + 2841687
+5   AMapiPhoneMonkey                     0x002f4bb9 0x3e000 + 2845625
+6   AMapiPhoneMonkey                     0x002f5f21 0x3e000 + 2850593
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 5:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   CoreMotion                           0x302273ad 0x301ee000 + 234413
+6   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+7   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+8   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 6:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x002f43f9 0x3e000 + 2843641
+3   AMapiPhoneMonkey                     0x002f3c57 0x3e000 + 2841687
+4   AMapiPhoneMonkey                     0x002f4bb9 0x3e000 + 2845625
+5   AMapiPhoneMonkey                     0x002f5f21 0x3e000 + 2850593
+6   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+7   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+8   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 7:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x00489f69 0x3e000 + 4505449
+6   Foundation                           0x3061fa5f 0x30551000 + 846431
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 8:
+0   libsystem_kernel.dylib               0x3aa73434 0x3aa60000 + 78900
+1   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+2   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+3   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 9:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 10:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 11:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 12:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 13:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 14:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 15:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 16:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   AMapiPhoneMonkey                     0x0018304b 0x3e000 + 1331275
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 17:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x000d771b 0x3e000 + 628507
+3   AMapiPhoneMonkey                     0x000d74c7 0x3e000 + 627911
+4   AMapiPhoneMonkey                     0x000d873d 0x3e000 + 632637
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 18:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97c91 0x30b86000 + 72849
+3   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 19:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30d33413 0x30b86000 + 1758227
+3   JavaScriptCore                       0x30d3346d 0x30b86000 + 1758317
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 20:
+0   libsystem_kernel.dylib               0x3aa60aa8 0x3aa60000 + 2728
+1   libdispatch.dylib                    0x3a99e61b 0x3a997000 + 30235
+2   QuartzCore                           0x320ef4df 0x320c4000 + 177375
+3   QuartzCore                           0x320f6087 0x320c4000 + 204935
+4   QuartzCore                           0x320cc20d 0x320c4000 + 33293
+5   QuartzCore                           0x320cb6e7 0x320c4000 + 30439
+6   QuartzCore                           0x320cb4ef 0x320c4000 + 29935
+7   QuartzCore                           0x320c521d 0x320c4000 + 4637
+8   CoreFoundation                       0x2fc01255 0x2fb62000 + 651861
+9   CoreFoundation                       0x2fbfebf9 0x2fb62000 + 642041
+10  CoreFoundation                       0x2fb69ee1 0x2fb62000 + 32481
+11  CoreFoundation                       0x2fb69ca3 0x2fb62000 + 31907
+12  WebCore                              0x37e551ab 0x37d97000 + 778667
+13  libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+14  libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+15  libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 21:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   JavaScriptCore                       0x30b97ded 0x30b86000 + 73197
+3   JavaScriptCore                       0x30b97c1d 0x30b86000 + 72733
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 22:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30d33413 0x30b86000 + 1758227
+3   JavaScriptCore                       0x30d3346d 0x30b86000 + 1758317
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 23:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fb69ca3 0x2fb62000 + 31907
+5   libAVFAudio.dylib                    0x2ebc9451 0x2ebb8000 + 70737
+6   libAVFAudio.dylib                    0x2ebbd7bf 0x2ebb8000 + 22463
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 24:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fb69ca3 0x2fb62000 + 31907
+5   WebCore                              0x37e9dbb7 0x37d97000 + 1076151
+6   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+7   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+8   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+9   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 25:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97dbf 0x30b86000 + 73151
+3   WebCore                              0x37f880a9 0x37d97000 + 2035881
+4   WebCore                              0x37f8802f 0x37d97000 + 2035759
+5   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+6   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+7   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+8   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 26:
+0   libsystem_kernel.dylib               0x3aa73c70 0x3aa60000 + 81008
+1   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 27:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 28:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 29:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x01c4d079 0x3e000 + 29421689
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 30:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x01c4d079 0x3e000 + 29421689
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 31:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcda5 0x3aada000 + 11685
+2   AMapiPhoneMonkey                     0x01c4d079 0x3e000 + 29421689
+3   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+4   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+5   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 32:
+0   libsystem_kernel.dylib               0x3aa73544 0x3aa60000 + 79172
+1   libsystem_c.dylib                    0x3aa32481 0x3a9db000 + 357505
+2   AMapiPhoneMonkey                     0x01d7eb0f 0x3e000 + 30673679
+3   Foundation                           0x3061fa5f 0x30551000 + 846431
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 33:
+0   libsystem_kernel.dylib               0x3aa73544 0x3aa60000 + 79172
+1   Foundation                           0x3061f17f 0x30551000 + 844159
+2   AMapiPhoneMonkey                     0x01da223b 0x3e000 + 30818875
+3   Foundation                           0x3061fa5f 0x30551000 + 846431
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 34:
+0   libsystem_kernel.dylib               0x3aa625d8 0x3aa60000 + 9688
+1   Foundation                           0x3056c777 0x30551000 + 112503
+2   AMapiPhoneMonkey                     0x01809c15 0x3e000 + 24951829
+3   libdispatch.dylib                    0x3a998833 0x3a997000 + 6195
+4   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+5   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+6   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+7   libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+8   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 35:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 36:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97dbf 0x30b86000 + 73151
+3   WebCore                              0x381c7cd5 0x37d97000 + 4394197
+4   WebCore                              0x381c7b77 0x37d97000 + 4393847
+5   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+6   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+7   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+8   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 37:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97dbf 0x30b86000 + 73151
+3   WebCore                              0x3873cf51 0x37d97000 + 10116945
+4   WebCore                              0x3873cb59 0x37d97000 + 10115929
+5   WebCore                              0x3873cad7 0x37d97000 + 10115799
+6   WebCore                              0x3873ec4b 0x37d97000 + 10124363
+7   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+8   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+9   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+10  libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 38:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97c91 0x30b86000 + 72849
+3   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 39:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30d33413 0x30b86000 + 1758227
+3   JavaScriptCore                       0x30d3346d 0x30b86000 + 1758317
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 40:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 41:
+0   libsystem_kernel.dylib               0x3aa73c70 0x3aa60000 + 81008
+1   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 42:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97dbf 0x30b86000 + 73151
+3   WebCore                              0x3873cf51 0x37d97000 + 10116945
+4   WebCore                              0x3873cb59 0x37d97000 + 10115929
+5   WebCore                              0x3873cad7 0x37d97000 + 10115799
+6   WebCore                              0x3873ec4b 0x37d97000 + 10124363
+7   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+8   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+9   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+10  libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 43:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97c91 0x30b86000 + 72849
+3   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 44:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30d33413 0x30b86000 + 1758227
+3   JavaScriptCore                       0x30d3346d 0x30b86000 + 1758317
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 45:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97dbf 0x30b86000 + 73151
+3   WebCore                              0x3873cf51 0x37d97000 + 10116945
+4   WebCore                              0x3873cb59 0x37d97000 + 10115929
+5   WebCore                              0x3873cad7 0x37d97000 + 10115799
+6   WebCore                              0x3873ec4b 0x37d97000 + 10124363
+7   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+8   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+9   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+10  libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 46:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30b97c91 0x30b86000 + 72849
+3   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+4   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+5   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+6   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 47:
+0   libsystem_kernel.dylib               0x3aa72f2c 0x3aa60000 + 77612
+1   libsystem_pthread.dylib              0x3aadcd65 0x3aada000 + 11621
+2   JavaScriptCore                       0x30d33413 0x30b86000 + 1758227
+3   JavaScriptCore                       0x30d3346d 0x30b86000 + 1758317
+4   JavaScriptCore                       0x30b952e3 0x30b86000 + 62179
+5   libsystem_pthread.dylib              0x3aadc919 0x3aada000 + 10521
+6   libsystem_pthread.dylib              0x3aadc88b 0x3aada000 + 10379
+7   libsystem_pthread.dylib              0x3aadaaa4 0x3aada000 + 2724
+
+Thread 48:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 49:
+0   libsystem_kernel.dylib               0x3aa60a58 0x3aa60000 + 2648
+1   CoreFoundation                       0x2fc0084b 0x2fb62000 + 649291
+2   CoreFoundation                       0x2fbfef71 0x2fb62000 + 642929
+3   CoreFoundation                       0x2fb69ebf 0x2fb62000 + 32447
+4   CoreFoundation                       0x2fbad9b3 0x2fb62000 + 309683
+5   AMapiPhoneMonkey                     0x008a12bf 0x3e000 + 8794815
+6   Foundation                           0x3060e76d 0x30551000 + 776045
+7   libdispatch.dylib                    0x3a99e293 0x3a997000 + 29331
+8   libdispatch.dylib                    0x3a99fad7 0x3a997000 + 35543
+9   libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+10  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+11  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 50:
+0   libsystem_kernel.dylib               0x3aa73c70 0x3aa60000 + 81008
+1   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 51:
+0   libsystem_kernel.dylib               0x3aa73c70 0x3aa60000 + 81008
+1   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 52:
+0   libsystem_kernel.dylib               0x3aa73c70 0x3aa60000 + 81008
+1   libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 53 Crashed:
+0   GLEngine                             0x31e8d01a 0x31e02000 + 569370
+1   GLEngine                             0x31e88e53 0x31e02000 + 552531
+2   GLEngine                             0x31e88413 0x31e02000 + 549907
+3   GLEngine                             0x31e7618b 0x31e02000 + 475531
+4   GLEngine                             0x31e304c9 0x31e02000 + 189641
+5   QuartzCore                           0x320e5239 0x320c4000 + 135737
+6   QuartzCore                           0x320e4ca9 0x320c4000 + 134313
+7   QuartzCore                           0x320e363d 0x320c4000 + 128573
+8   QuartzCore                           0x320e2fc9 0x320c4000 + 126921
+9   QuartzCore                           0x320dfd61 0x320c4000 + 114017
+10  QuartzCore                           0x320de459 0x320c4000 + 107609
+11  libdispatch.dylib                    0x3a99ef11 0x3a997000 + 32529
+12  libdispatch.dylib                    0x3a99ec97 0x3a997000 + 31895
+13  libdispatch.dylib                    0x3a99fa45 0x3a997000 + 35397
+14  libdispatch.dylib                    0x3a99fd29 0x3a997000 + 36137
+15  libsystem_pthread.dylib              0x3aadabd3 0x3aada000 + 3027
+16  libsystem_pthread.dylib              0x3aadaa98 0x3aada000 + 2712
+
+Thread 53 crashed with ARM Thread State:
+    pc: 0x31e8d01a     r7: 0x231cc94c     sp: 0x231cc940     r0: 0x2310c000 
+    r1: 0x00000000     r2: 0x00000004     r3: 0x00000004     r4: 0x00000000 
+    r5: 0x2310c000     r6: 0x00000100     r8: 0x00000004     r9: 0x00000800 
+   r10: 0x31e8d009    r11: 0x00000008     ip: 0x00000804     lr: 0x31e88e53 
+  cpsr: 0x20000030 
+
+Binary Images:
+   0x3e000 -  0x2281fff +AMapiPhoneMonkey armv7  <e7a12b3f8e4330cead6dfc9104e3997c> /Users/USER/AMapiPhoneMonkey.app/AMapiPhoneMonkey
